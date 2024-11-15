@@ -13,15 +13,15 @@ The dataset consists of two CSV files:
 # Model Description:
 The model architecture consists of:
 
-1 Conv2D Layers: Three convolutional layers to extract features from the images.
-2 MaxPooling Layers: To downsample the feature maps.
-3 Dense Layer: A fully connected layer for classification.
-4 Softmax Output Layer: Outputs probabilities for each of the 10 digits (0-9).
+- Conv2D Layers: Three convolutional layers to extract features from the images.
+- MaxPooling Layers: To downsample the feature maps.
+- Dense Layer: A fully connected layer for classification.
+- Softmax Output Layer: Outputs probabilities for each of the 10 digits (0-9).
 
 # Steps:
-1 Data Preprocessing: The pixel values are normalized to the range [0, 1] and reshaped to match the input shape of the CNN (28x28x1).
-2 Model Training: The model is trained using the Adam optimizer and categorical crossentropy loss for multi-class classification.
-3 Predictions: The trained model predicts the digit labels for the test set.
+- Data Preprocessing: The pixel values are normalized to the range [0, 1] and reshaped to match the input shape of the CNN (28x28x1).
+- Model Training: The model is trained using the Adam optimizer and categorical crossentropy loss for multi-class classification.
+- Predictions: The trained model predicts the digit labels for the test set.
 
 # Installation
 To run the model, make sure you have Python 3.x and the required libraries installed. Use the following command to install dependencies:
